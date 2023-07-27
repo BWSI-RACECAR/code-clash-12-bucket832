@@ -32,7 +32,8 @@ class Solution:
             #return type: boolean
             
             #TODO: Write code below to returnn a boolean value with the solution to the prompt.
-            return parenthesis.count('[') == parenthesis.count(']') or parenthesis.count('{') == parenthesis.count('}') and parenthesis.count('(') == parenthesis.count(')')
+
+        return parenthesis.count('[') == parenthesis.count(']') and parenthesis.count('{') == parenthesis.count('}') and parenthesis.count('(') == parenthesis.count(')')
                       
 
 def main():
